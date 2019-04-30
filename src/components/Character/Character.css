@@ -1,11 +1,11 @@
 .card {
-  border: 3px solid #d7d7d7;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 100px;
   cursor: pointer;
-  height: 170px;
+  height: auto;
   margin: 15px;
   overflow: hidden;
-  width: 170px;
+  width: 200px;
 }
 
 .card:hover {
@@ -15,7 +15,7 @@
 }
 
 .card-img-top {
-  border-radius: 0;
+  border-radius: 100px;
 }
 
 .card-height {
